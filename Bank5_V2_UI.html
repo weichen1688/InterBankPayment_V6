@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<!--[if IE 9]>         <html class="ie9 no-focus" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-focus" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>第五銀行</title>
+
+        <meta name="description" content="OneUI - Admin Dashboard Template &amp; UI Framework created by pixelcave and published on Themeforest">
+        <meta name="author" content="pixelcave">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+
+        <!-- Icons -->
+        <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+        <link rel="shortcut icon" href="assets/img/favicons/favicon.png">
+
+        <link rel="icon" type="image/png" href="assets/img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="assets/img/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="assets/img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="assets/img/favicons/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="assets/img/favicons/favicon-192x192.png" sizes="192x192">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon-180x180.png">
+        <!-- END Icons -->
+
+        <!-- Stylesheets -->
+        <!-- Web fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+
+        <!-- Bootstrap and OneUI CSS framework -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" id="css-main" href="assets/css/oneui.css">
+        <link rel="stylesheet" type="text/css" href="./demo5.css">
+
+        <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
+        <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/flat.min.css"> -->
+        <!-- END Stylesheets -->
+    </head>
+    <body>
+        <!-- Page Container -->
+        <!--
+            Available Classes:
+
+            'enable-cookies'             Remembers active color theme between pages (when set through color theme list)
+
+            'sidebar-l'                  Left Sidebar and right Side Overlay
+            'sidebar-r'                  Right Sidebar and left Side Overlay
+            'sidebar-mini'               Mini hoverable Sidebar (> 991px)
+            'sidebar-o'                  Visible Sidebar by default (> 991px)
+            'sidebar-o-xs'               Visible Sidebar by default (< 992px)
+
+            'side-overlay-hover'         Hoverable Side Overlay (> 991px)
+            'side-overlay-o'             Visible Side Overlay by default (> 991px)
+
+            'side-scroll'                Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (> 991px)
+
+            'header-navbar-fixed'        Enables fixed header
+        -->
+        <div id="page-container" class="sidebar-l sidebar-o side-scroll sidebar-mini header-navbar-fixed">
+            <!-- Side Overlay-->
+            <aside id="side-overlay">
+                <!-- Side Overlay Scroll Container -->
+                <div id="side-overlay-scroll">
+                    <!-- Side Header -->
+                    <div class="side-header side-content">
+                        <!-- Layout API, functionality initialized in App() -> uiLayoutApi() -->
+                        <button class="btn btn-default pull-right" type="button" data-toggle="layout" data-action="side_overlay_close">
+                            <i class="fa fa-times"></i>
+                        </button>
+                        <span>
+                            <img class="img-avatar img-avatar32" src="assets/img/avatars/avatar10.jpg" alt="">
+                            <span class="font-w600 push-10-l"></span>
+                        </span>
+                    </div>
+                    <!-- END Side Header -->
+
+                    <!-- Side Content -->
+                    <div class="side-content remove-padding-t">
+                        <!-- Side Overlay Tabs -->
+                        <div class="block pull-r-l border-t">
+                            <ul class="nav nav-tabs nav-tabs-alt nav-justified" data-toggle="tabs">
+                                <li class="active">
+                                    <a href="#tabs-side-overlay-overview"><i class="fa fa-fw fa-coffee"></i> Overview</a>
+                                </li>
+                                <li>
+                                    <a href="#tabs-side-overlay-sales"><i class="fa fa-fw fa-line-chart"></i> Sales</a>
+                                </li>
+                            </ul>
+                            <div class="block-content tab-content">
+                                <!-- Overview Tab -->
+                                <div class="tab-pane fade fade-right in active" id="tabs-side-overlay-overview">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Side Overlay Tabs -->
+                    </div>
+                    <!-- END Side Content -->
+                </div>
+                <!-- END Side Overlay Scroll Container -->
+            </aside>
+            <!-- END Side Overlay -->
+
+            <!-- Sidebar -->
+            <!-- END Sidebar -->
+
+            <!-- Header -->
+            <header id="header-navbar" class="content-mini content-mini-full">
+                <!-- Header Navigation Right -->
+                <ul class="nav-header pull-right">
+                    <li>
+                        <div class="btn-group">
+                            <button class="btn btn-default btn-image dropdown-toggle" data-toggle="dropdown" type="button">
+                                <img src="assets/img/avatars/avatar10.jpg" alt="Avatar">
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li class="dropdown-header">Profile</li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Actions</li>
+                                <li>
+                                    <a tabindex="-1" href="#" data-toggle="modal" data-target="#modal-unlock">
+                                        <i class="si si-lock pull-right"></i>Unlock Account
+                                    </a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" onclick="lockAccount()">
+                                        <i class="si si-lock pull-right"></i>Lock Account
+                                    </a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="Bank5_V2_login.html" >
+                                        <i class="si si-lock pull-right"></i>Logoff
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <!-- Layout API, functionality initialized in App() -> uiLayoutApi() -->
+                    </li>
+                </ul>
+                <!-- END Header Navigation Right -->
+
+                <!-- Header Navigation Left -->
+                <ul class="nav-header pull-left">
+                    <li class="hidden-md hidden-lg">
+                        <!-- Layout API, functionality initialized in App() -> uiLayoutApi() -->
+                        <button class="btn btn-default" data-toggle="layout" data-action="sidebar_toggle" type="button">
+                            <i class="fa fa-navicon"></i>
+                        </button>
+                    </li>
+                    <li class="hidden-xs hidden-sm">
+                        <!-- Layout API, functionality initialized in App() -> uiLayoutApi() -->
+                        
+                    </li>
+                    <li>
+                        <!-- Opens the Apps modal found at the bottom of the page, before including JS code -->
+                        <button class="btn btn-default pull-right" data-toggle="modal" data-target="#apps-modal" type="button">
+                            <i class="si si-grid"></i>
+                        </button>
+                    </li>
+                    <li class="visible-xs">
+                        <!-- Toggle class helper (for .js-header-search below), functionality initialized in App() -> uiToggleClass() -->
+                        <button class="btn btn-default" data-toggle="class-toggle" data-target=".js-header-search" data-class="header-search-xs-visible" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </li>
+                </ul>
+                <!-- END Header Navigation Left -->
+            </header>
+            <!-- END Header -->
+
+            <!-- Main Container -->
+            <main id="main-container">
+                <!-- Page Header -->
+                <div class="bg-image overflow-hidden" style="background-image: url('assets/img/photos/photo31@2x.jpg');"></div>
+                <!-- END Page Header -->
+
+                <!-- Page Content -->
+              <div class="content content-narrow">
+                    <!-- Stats -->
+                  <div class="row">
+                      <!-- div class="content btn-group-justified border-b"-->
+                          <div class="row items-push text-uppercase">
+                              <div class="col-xs-6 col-sm-3">
+                                  <!--div class="h2 font-w300 text-primary animated flipInX"></div-->
+                                  <div id="TOTAL_PAYMENTS"></div>
+                              </div>
+                              <!--
+                              <div class="col-xs-6 col-sm-3">
+                                  <div class="font-w700 text-gray-darker animated fadeIn">交易數量</div>
+                                  <div class="text-muted animated fadeIn"><small><i class="si si-calendar"></i> ALL TIME</small></div>
+                                  <div id="TOTAL_TRANSACTIONS"></div>
+                              </div-->
+                              <div class="col-xs-6 col-sm-3">
+                                  <div class="font-w700 text-gray-darker animated fadeIn">公債餘額</div>
+                                  <!--div class="text-muted animated fadeIn"><small><i class="si si-calendar"></i> Today</small></div-->
+                                  <div id="TOTAL_AMOUNTS"></div>
+                              </div>
+                              <div class="col-xs-6 col-sm-3">
+                                  <div class="font-w700 text-gray-darker animated fadeIn">當期利息</div>
+                                  <!--div class="text-muted animated fadeIn"><small><i class="si si-calendar"></i> Today</small></div-->
+                                  <!--div class="h2 font-w300 text-primary animated flipInX"></div-->
+                                  <div id="ANNUAL_INTERESTS"></div>
+                              </div>
+                              <div class="col-xs-6 col-sm-3">
+                                  <div class="font-w700 text-gray-darker animated fadeIn">已收利息</div>
+                                  <!--div class="text-muted animated fadeIn"><small><i class="si si-calendar"></i> Today</small></div-->
+                                  <!--div class="h2 font-w300 text-primary animated flipInX"></div-->
+                                  <div id="TOTAL_INTERESTS"></div>
+                              </div>
+                          </div>
+                      <!--/div-->
+                  </div>
+                  <!-- END Stats -->
+                    <!-- END Stats -->
+
+                    <!-- Dashboard Charts -->
+                <div class="row">
+                        <div class="col-md-">
+                            <div class="block block-rounded block-opt-refresh-icon8">
+                                <div class="block-header">
+                                    <ul class="block-options">
+                                        <li>
+                                        </li>
+                                    </ul>
+                                    <h3 class="block-title">第五銀行</h3>
+                                </div>
+                                <div class="block-content block-content-full bg-gray-lighter text-center">
+                                    <!-- Chart.js Charts (initialized in js/pages/base_pages_dashboard_v2.js), for more examples you can check out http://www.chartjs.org/docs/ -->
+                                    <table class="outertable" cellspacing="5px" cellpadding="5px">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                
+                                                <table width="1260" class="fancytable" style="vertical-align: top; margin-left: auto; margin-right: auto;">
+                                                    <tbody>
+                                                    <tr class="headerrow_2">
+                                                        <td>帳戶類別</td>
+                                                        <td>銀行代號</td>
+                                                        <td>客戶帳號</td>
+                                                        <td>客戶名稱</td>
+                                                        <td>存戶類別編號</td>
+                                                        <td>公債代號</td>
+                                                        <td>公債面額</td>
+                                                        <td>可用餘額</td>
+                                                        <td>票面利率</td>
+                                                        <td>發行日</td>
+                                                        <td>到期日</td>
+                                                        <td>交易功能</td>
+                                                    </tr>
+                                                    </tbody>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <input class="form-control-static" id="null_2" type="text" value="債券帳戶" readonly size="8"/>
+                                                        </td>
+                                                        <td>
+                                                            <input class="form-control-static" id="query_bank1" type="text" value="Bank5" size="10"/>
+                                                        </td>
+                                                        <td>
+                                                            <input class="form-control" id="customer_id" type="text" value="" size="16" placeholder="輸入客戶帳號"/>
+                                                        </td>
+                                                        <td>
+                                                            <input class="form-control-static" id="customer_name" type="text" size="24" readonly />
+                                                        </td>
+                                                        <td>
+                                                            <input class="form-control-static" id="customer_type" type="text" size="24" readonly />
+                                                        </td>
+                                                        <td>
+                                                            <input class="form-control" id="securities_id_a" type="text" size="12" placeholder="輸入公債代號" />
+                                                        </td>
+                                                        <td>
+                                                            <input class="form-control-static" id="securities_amount_a" type="text" readonly size="10"/>
+                                                        </td>
+                                                        <td>
+                                                            <input class="form-control-static" id="securities_position_a" type="text" readonly size="10"/>
+                                                        </td>
+                                                        <td>
+                                                            <input class="form-control-static" id="securities_interest_a" type="text" readonly size="6"/>
+                                                        </td>
+                                                        <td>
+                                                            <input class="form-control-static" id="securities_start_day_a" type="text" readonly size="8"/>
+                                                        </td>
+                                                        <td>
+                                                            <input class="form-control-static" id="securities_end_day_a" type="text" readonly size="8"/>
+                                                        </td>
+                                                        <td>
+                                                            <div class="menu">
+                                                                <ul>
+                                                                    <li><a href="#">交易功能選單</a>
+                                                                        <ul>
+                                                                            <!-- li onclick="queryAccBalance()"><a href="#this" title="餘額查詢">餘額查詢</a></li -->
+                                                                            <li onclick="queryAccBalance()"><a href="#this" title="公債額度查詢">公債額度查詢</a></li>
+                                                                            <li onclick="showTxnTable1()"><a href="#this" title="跨行賣出公債">跨行轉出公債</a></li>
+                                                                            <li onclick="showTxnTable2()"><a href="#this" title="跨行買入公債">跨行轉入公債</a></li>
+                                                                            <li onclick="showTxnTable3()"><a href="#this" title="自行賣出公債">自行轉出公債</a></li>
+                                                                            <li onclick="showTxnTable4()"><a href="#this" title="自行買入公債">自行轉入公債</a></li>
+                                                                            <li onclick="qryTxnTable2()"><a href="#this" title="公債交易查詢">公債交易查詢</a></li>
+                                                                            <li onclick="showTxnTable5()"><a href="#this" title="設定帳戶資料">設定帳戶資料</a></li>
+                                                                            <li onclick="showTxnTable6()"><a href="#this" title="存入同資款項">存入同資款項</a></li>
+                                                                            <!--li onclick="showTxnTable7()"><a href="#this" title="切換處理模式">切換處理模式</a></li>
+                                                                            <li onclick="showTxnTable8()"><a href="#this" title="客戶存入帳款">客戶存入帳款</a></li>
+                                                                            <li onclick="showTxnTable9()"><a href="#this" title="自動測試模式">自動測試模式</a></li-->
+                                                                            <li onclick="hideTxnTable()"><a href="#this" title="重設選單畫面">重設選單畫面</a></li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </ul>
+                                                                <!--div class="clear"></div-->
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+
+                                                <p>&nbsp;</p>
+
+                                                <div id="TxnTableHolder"></div>
+
+                                                <p>&nbsp;</p>
+                                                
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+					</div>
+                    <!-- END Dashboard Charts -->
+
+
+                  <div class="row">
+                      <div class="col-md-">
+                          <div class="block block-rounded block-opt-refresh-icon8">
+                              <div class="block-header">
+                                  <ul class="block-options">
+                                      <li class="dropdown">
+                                          <button type="button" data-toggle="dropdown"><i class="si si-settings"></i></button>
+                                          <ul class="dropdown-menu dropdown-menu-right">
+                                              <li>
+                                                  <a tabindex="-1" href="#" onclick="cancelTransactions()">
+                                                      <i class="si si-trash text-danger pull-right"></i>
+                                                      取消公債交易
+                                                  </a>
+                                              </li>
+                                              <li>
+                                                  <a tabindex="-1" href="#" data-toggle="modal" data-target="#modal-slideup">
+                                                      <i class="si si-question text-danger pull-right"></i>
+                                                      設定查詢條件
+                                                  </a>
+                                              </li>
+                                              <li>
+                                                  <a tabindex="-1" href="#" onclick="displayBlock()">
+                                                      <i class="si si-question text-danger pull-right"></i>
+                                                      檢視交易歷史
+                                                  </a>
+                                              </li>
+                                              <li>
+                                                  <a tabindex="-1" href="#" onclick="qryInputErr()">
+                                                      <i class="si si-question text-danger pull-right"></i>
+                                                      疑似輸錯交易
+                                                  </a>
+                                              </li>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                                  <h3 class="block-title">公債交易查詢</h3>
+								  
+                              </div>
+
+                              <div><input type="text" id="data_qry_txn_string" hidden/></div>
+
+                              <div class="block-content block-content-full ">
+                                  <table class="bg-gray-lighter text-center" cellspacing="5px" cellpadding="5px">
+                                      <tbody>
+                                      <tr>
+                                          <td>
+                                                <table id="txntbl" width="1300px" class="data_table2 bg-gray-lighter text-center" cellspacing="10px" cellpadding="10px">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <div id="TxnTableHolder2"></div>
+                                                            </td>
+                                                        </tr>
+                                                </table>
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <!-- Dashboard Cards -->
+                    <!-- END Dashboard Cards -->
+                </div>
+                <!-- END Page Content -->
+            </main>
+            <!-- END Main Container -->
+
+            <!-- Footer -->
+            <footer id="page-footer" class="content-mini content-mini-full font-s12 bg-gray-lighter clearfix">
+                <div class="pull-left">
+                </div>
+                <div class="pull-right">
+                    <div class="col-xs-6 col-lg-3">
+                        <div class="push-15"><i class="fa fa-bank fa-2x text-flat"></i></div>
+                    </div>
+                    <div class="col-xs-6 col-lg-3">
+                        <div class="push-15"><i class="fa fa-angle-double-up fa-2x text-flat"></i></div>
+                    </div>
+                    <div class="col-xs-6 col-lg-3">
+                        <div class="push-15"><i class="fa fa-headphones fa-2x text-flat"></i></div>
+                    </div>
+                    <div class="col-xs-6 col-lg-3">
+                        <div class="push-15"><i class="fa fa-users fa-2x text-flat"></i></div>
+                    </div>
+                </div>
+
+            </footer>
+            <!-- END Footer -->
+        </div>
+        <!-- END Page Container -->
+
+        <!-- Apps Modal -->
+        <!-- Opens from the button in the header -->
+        <div class="modal fade" id="apps-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-sm modal-dialog modal-dialog-top">
+                <div class="modal-content">
+                    <!-- Apps Block -->
+                    <div class="block block-themed block-transparent">
+                        <div class="block-header bg-primary-dark">
+                            <ul class="block-options">
+                                <li>
+                                    <button data-dismiss="modal" type="button"><i class="si si-close"></i></button>
+                                </li>
+                            </ul>
+                            <h3 class="block-title">Apps</h3>
+                        </div>
+                        <div class="block-content">
+                            <div class="row text-center">
+                                <div class="col-xs-6">
+                                    <a class="block block-rounded" href="base_pages_dashboard.html">
+                                        <div class="block-content text-white bg-default">
+                                            <i class="si si-speedometer fa-2x"></i>
+                                            <div class="font-w600 push-15-t push-15">Backend</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-6">
+                                    <a class="block block-rounded" href="bd_dashboard.html">
+                                        <div class="block-content text-white bg-modern">
+                                            <i class="si si-rocket fa-2x"></i>
+                                            <div class="font-w600 push-15-t push-15">Boxed</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END Apps Block -->
+                </div>
+            </div>
+        </div>
+        <!-- END Apps Modal -->
+
+        <div class="modal fade" id="m_showblock_modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-info-light">
+                        <ul class="block-options ">
+                            <li>
+                                <button data-dismiss="modal" type="button"><i class="si si-close"></i></button>
+                            </li>
+                        </ul>
+                        <h3 class="block-title">檢視交易歷史</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div id="BLOCK_TIMELINE"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Slide Up Modal -->
+        <div class="modal fade" id="modal-slideup" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-slideup">
+                <div class="modal-content">
+                    <div class="block block-themed block-transparent remove-margin-b">
+                        <div class="block-header bg-primary-dark">
+                            <ul class="block-options">
+                                <li>
+                                    <button data-dismiss="modal" type="button"><i class="si si-close"></i></button>
+                                </li>
+                            </ul>
+                            <h3 class="block-title">設定查詢條件</h3>
+                        </div>
+                        <div class="block-content">
+
+                            <div class="form-group row ">
+                                <label class="col-form-label col-lg-3 col-sm-12">
+                                    銀行代號及客戶帳號
+                                </label>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <input type="text" class="form-control" id="m_bankid_a" placeholder="銀行代號"/>
+                                </div>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <input type="text" class="form-control" id="m_custid_a" placeholder="客戶帳號"/>
+                                </div>
+                                <label class="col-form-label col-lg-3 col-sm-12">
+                                    公債代號
+                                </label>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <input type="text" class="form-control" id="m_secid_a" placeholder="公債代號(1)"/>
+                                </div>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <input type="text" class="form-control" id="m_secid_b" placeholder="公債代號(2)"/>
+                                </div>
+                                <label class="col-form-label col-lg-3 col-sm-12">
+                                    交易面額區間
+                                </label>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <input type="text" class="form-control" id="m_amount_a" onblur="formatNum('m_amount_a')" placeholder="交易面額(大於)"/>
+                                </div>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <input type="text" class="form-control" id="m_amount_b" onblur="formatNum('m_amount_b')" placeholder="交易面額(小於)"/>
+                                </div>
+                                <label class="col-form-label col-lg-3 col-sm-12">
+                                    交易金額區間
+                                </label>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <input type="text" class="form-control" id="m_payment_a" onblur="formatNum('m_payment_a')" placeholder="交易金額(大於)"/>
+                                </div>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <input type="text" class="form-control" id="m_payment_b" onblur="formatNum('m_payment_b')" placeholder="交易金額(小於)"/>
+                                </div>
+                                <label class="col-form-label col-lg-3 col-sm-12">
+                                    交易日期區間
+                                </label>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <input type="text" class="form-control" id="m_datetimepicker_1"  placeholder="交易日期(大於)"/>
+                                </div>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <input type="text" class="form-control" id="m_datetimepicker_2"  placeholder="交易日期(小於)"/>
+                                </div>
+                                <label class="col-form-label col-lg-3 col-sm-12">
+                                    交易狀態
+                                </label>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <!--input type="text" class="form-control" id="m_txnstat_a" placeholder="交易狀態(1)"/-->
+                                    <select id="m_txnstat_a" class="form-control">
+                                        <option>
+
+                                        </option>
+                                        <option>
+                                            Pending
+                                        </option>
+                                        <option>
+                                            Waiting4Payment
+                                        </option>
+                                        <option>
+                                            Finished
+                                        </option>
+                                        <option>
+                                            Cancelled
+                                        </option>
+                                    </select>
+
+                                </div>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <!-- input type="text" class="form-control" id="m_txnstat_b" placeholder="交易狀態(2)"/-->
+                                    <select id="m_txnstat_b" class="form-control">
+                                        <option>
+
+                                        </option>
+                                        <option>
+                                            Pending
+                                        </option>
+                                        <option>
+                                            Waiting4Payment
+                                        </option>
+                                        <option>
+                                            Finished
+                                        </option>
+                                        <option>
+                                            Cancelled
+                                        </option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-sm btn-default" type="button" data-dismiss="modal">Close</button>
+                        <button class="btn btn-sm btn-primary" type="button" data-dismiss="modal" onclick="set_querycond()" ><i class="fa fa-check"></i> Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Slide Up Modal -->
+
+
+        <!-- Slide Up Modal -->
+        <div class="modal fade" id="modal-unlock" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-slideup">
+                <div class="modal-content">
+                    <div class="block block-themed block-transparent remove-margin-b">
+                        <div class="block-header bg-primary-dark">
+                            <ul class="block-options">
+                                <li>
+                                    <button data-dismiss="modal" type="button"><i class="si si-close"></i></button>
+                                </li>
+                            </ul>
+                            <h3 class="block-title">解除帳號鎖定</h3>
+                        </div>
+                        <div class="block-content">
+
+                            <div class="form-group row ">
+                                <label class="col-form-label col-lg-3 col-sm-12">
+                                    請輸入密碼
+                                </label>
+                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <input type="password" id="m_password" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-sm btn-default" type="button" data-dismiss="modal">Close</button>
+                        <button class="btn btn-sm btn-primary" type="button" data-dismiss="modal" onclick="unlockAccount()" ><i class="fa fa-check"></i> Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Slide Up Modal -->
+
+
+
+        <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
+        <script src="assets/js/core/jquery.min.js"></script>
+        <script src="assets/js/core/bootstrap.min.js"></script>
+        <script src="assets/js/core/jquery.slimscroll.min.js"></script>
+        <script src="assets/js/core/jquery.scrollLock.min.js"></script>
+        <script src="assets/js/core/jquery.appear.min.js"></script>
+        <script src="assets/js/core/jquery.countTo.min.js"></script>
+        <script src="assets/js/core/jquery.placeholder.min.js"></script>
+        <script src="assets/js/core/js.cookie.min.js"></script>
+        <script src="assets/js/app.js"></script>
+
+        <!-- Page Plugins -->
+        <!--script src="assets/js/plugins/chartjs/Chart.min.js"></script-->
+
+        <!-- Page JS Code -->
+        <!-- script src="assets/js/pages/base_pages_dashboard_v2.js"></script -->
+
+        <script>
+            /*
+			jQuery(function () {
+                // Init page helpers (CountTo plugin)
+                App.initHelpers('appear-countTo');
+            });
+            */
+
+		</script>
+
+        <!-- h4>執行結果 : </h4 -->
+        <script src='web3.min.js'></script>
+
+        <link rel="stylesheet" href='jquery-ui.css'>
+        <link rel="stylesheet" type="text/css" href="datatables.min.css"/>
+        <link rel="stylesheet" type="text/css" href="select.dataTables.min.css"/>
+        <!-- link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.1.0/material.min.css"/-->
+        <!-- link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.material.min.css"/ -->
+
+        <!--script src='jquery-1.12.4.js'></script-->
+        <script src='jquery-ui.js'></script>
+        <script type="text/javascript" src="datatables.min.js"></script>
+        <script type="text/javascript" src="datatables.select.min.js"></script>
+        <script type="text/javascript" src="jquery.dataTables.min.js"></script>
+        <!-- script type="text/javascript" src="dataTables.min.js"></script -->
+
+
+        <script type="text/javascript" src="Bank5_V2_UI.js"></script>
+
+    </body>
+</html>

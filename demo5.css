@@ -1,0 +1,231 @@
+pre {
+    background: #e7ecff;
+}
+
+.titleFont {
+    font-family: Cursive, "BiauKai";
+}
+
+
+.fancytable {
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    font-size: small;
+    height: 97px;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.fancytable_2 {
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    font-size: small;
+    height: 130px;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+
+.outertable {
+    border: 0px solid #cccccc;
+    border-collapse: collapse;
+    font-size: small;
+    background-color: rgba(104, 147, 204, 0.04);
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+    margin-left: 10px; margin-right: 10px;
+}
+
+.data_table2 {
+    font-size: small;
+    background-color: rgba(104, 147, 204, 0.04);
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+    margin-left: 10px; margin-right: 10px;
+}
+
+.data_table_header {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+    background: #6893cc;
+}
+
+
+.outertable2 {
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    font-size: small;
+    background-color: rgba(140, 169, 221, 0.12);
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+    box-shadow:1px 1px 1px 1px rgba(5%,5%,10%,0.1) inset;
+    margin-left: 10px; margin-right: 10px;
+}
+
+
+.fancytable td {
+    border: 0px;
+    color: #555555;
+    text-align: center;
+    line-height: 0px;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.headerrow {
+    background-color: #6893cc;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.headerrow td {
+    color: #ffffff;
+    text-align: center;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.dataroweven {
+    background-color: #efefef;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.datarow {
+    background-color: #ffffff;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.dataroweven td {
+    background-color: #6893cc;
+    font-size: x-small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+
+.headerrow_2 {
+    background-color: #6893cc;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.headerrow_2 td {
+    color: #ffffff;
+    text-align: center;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.button_2 {
+    text-align: center;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.select_2 {
+    text-align: center;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.data_text td {
+    font-size: x-small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.head_text td {
+    font-size: medium;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+
+.headerrow_4 {
+    background-color: #6893cc;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.headerrow_4 td {
+    color: #ffffff;
+    text-align: center;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+
+.headerrow_5 {
+    background-color: #6893cc;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.headerrow_5 td {
+    color: #ffffff;
+    text-align: center;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.menu {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu ul {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+
+.menu ul li {
+    float:left;
+    position:relative;
+}
+
+.menu ul li a, .menu ul li a:visited {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    color: #0f1010;
+    border: 1px solid #6893cc;
+    border-width: 1px 1px 0 0;
+    background: #dddddd;
+    line-height: 30px;
+    font-size: small;
+    font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.menu ul li ul {
+    display: none;
+}
+
+.menu ul li:hover a {
+    color: #fff;
+    background: #6893cc;
+}
+
+.menu ul li:hover ul {
+    display:block;
+    position:absolute;
+    top:31px;
+    left:0;
+    width:105px;
+}
+
+.menu ul li:hover ul li a {
+    display: block;
+    background: #dddddd;
+    color: #0f1010;
+}
+
+.menu ul li:hover ul li a:hover {
+    background: #6893cc;
+    color: #0f1010;
+}
+
+.label_2 {
+    font-weight: lighter;
+    color: #656666;
+    font-size : small;
+}
+
